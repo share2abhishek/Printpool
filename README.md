@@ -1,9 +1,34 @@
-# Radixile PrintPool
+# Radixile PrintPool — Batch Document Printing & Conversion for Windows
 
-**Batch document printing & conversion for Windows (and macOS).**
-Add many files, pick a printer, and print or convert them all in one go — PDFs, Word/Excel/PowerPoint, OpenDocument, images, HTML, and more.
+> **Print or convert many files at once.** Add a whole folder of PDFs, Word, Excel,
+> PowerPoint, images, HTML and 35+ file types, pick a printer, and print or convert them
+> all in one click — a fast, free, modern **batch printing** app for Windows and macOS.
+
+<p align="center">
+  <a href="https://github.com/share2abhishek/Printpool/releases/latest"><img alt="Download" src="https://img.shields.io/github/v/release/share2abhishek/Printpool?label=download&style=for-the-badge"></a>
+  <a href="https://github.com/share2abhishek/Printpool/releases"><img alt="Total downloads" src="https://img.shields.io/github/downloads/share2abhishek/Printpool/total?style=for-the-badge"></a>
+  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS-blue?style=for-the-badge">
+  <img alt="License" src="https://img.shields.io/badge/license-Proprietary-lightgrey?style=for-the-badge">
+</p>
+
+**Radixile PrintPool** is a desktop **batch document printing and conversion** tool — a modern
+alternative to tools like Print Conductor and Print Wizard. Instead of opening Word, Excel,
+your PDF reader and an image viewer one by one, you build a single print queue and PrintPool
+prints (or converts) everything for you, with per-document copies, page ranges, and
+double-sided settings.
 
 Published by **Radixile Technology Solutions LLP**, Pune, MH, India.
+
+**Keywords:** batch printing software · print multiple files at once · bulk print PDF / Word /
+Excel / PowerPoint · print all files in a folder · batch document converter · PDF to Word (OCR)
+· print queue · Windows printing app.
+
+### Who it's for
+
+- 🏢 **Offices** printing daily reports, invoices, or statements in bulk.
+- 🖨️ **Print shops & admins** running large mixed-format print jobs unattended.
+- 📚 **Anyone** who regularly prints the same set of documents (drag, save the list, reprint).
+- 🔄 People who need to **convert** batches of files (PDF ⇄ Office ⇄ images, PDF → Word via OCR).
 
 ---
 
@@ -82,6 +107,36 @@ the manual install checklist.
 Electron + React (electron-vite), packaged with electron-builder. Office/CAD conversion via
 bundled LibreOffice; PDF text/OCR via pdf.js + Tesseract.js; printing via pdf-to-printer
 (Windows) / `lp` (macOS/Linux).
+
+## Frequently asked questions
+
+**How do I print multiple files at once on Windows?**
+Install PrintPool, drag your files (PDF, Word, Excel, PowerPoint, images, and more) onto the
+window, pick a printer, and click **Print All**. PrintPool prints every document in order,
+applying each file's copies / page range / duplex settings. See the [User Guide](docs/HELP.md).
+
+**Can it print a whole folder automatically?**
+Yes. Set a **Watch Folder** in Settings and any new file dropped there is printed automatically.
+You can also **schedule** the queue to print once, daily, or weekly.
+
+**Is PrintPool a free alternative to Print Conductor?**
+PrintPool is a modern batch-printing app covering the same core job — printing many mixed-format
+documents in one run — with conversion, OCR, scheduling, and reprint from history built in.
+
+**What file types can it print?**
+PDF, Word (`doc`/`docx`), Excel (`xls`/`xlsx`), PowerPoint (`ppt`/`pptx`), OpenDocument, images
+(JPG, PNG, TIFF, WebP…), HTML, email (`eml`/`msg`), CAD (`dwg`/`dxf`), and more — **35+ formats**.
+See [FEATURES.md](docs/FEATURES.md#supported-file-formats).
+
+**Can it convert PDF to Word?**
+Yes — the **Convert** tab extracts a PDF's text layer, or OCRs scanned PDFs offline
+(English, Hindi, Spanish, French) to DOCX/ODT/RTF/TXT.
+
+**Does it need admin rights or LibreOffice installed?**
+No. The Windows installer is per-user (no admin) and self-contained — it bundles LibreOffice and
+the OCR engine, so it works on a clean machine offline.
+
+---
 
 ## License & publisher
 
