@@ -23,6 +23,9 @@ one by one.
 - [Auto-print files dropped in a folder](#auto-print-files-dropped-in-a-folder)
 - [Saving a list to reuse later](#saving-a-list-to-reuse-later)
 - [Print history & reprinting](#print-history--reprinting)
+- [🆕 Generating a client bill (Billing)](#-generating-a-client-bill-billing)
+- [🆕 Client book (Clients)](#-client-book-clients)
+- [🆕 Sales reports (Reports)](#-sales-reports-reports)
 - [Settings](#settings)
 - [Something went wrong?](#something-went-wrong)
 
